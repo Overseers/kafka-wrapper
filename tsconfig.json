@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "rootDirs": [
+            "./src"
+        ],
+        "declaration":true
+    },
+    "include": [
+        "./node_modules/kafka-node/types/index.d.ts"
+    ]
+}
